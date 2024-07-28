@@ -12,7 +12,12 @@ class Myapp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(backgroundColor: Colors.amber,),
-        body: Text('data'),
+        body:
+        Container(
+          height: 100,
+          width: 100,
+          color: Colors.amber.shade50,
+          child: Text('Container'),),
       ),
     );
   }
