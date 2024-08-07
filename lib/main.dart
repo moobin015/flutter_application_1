@@ -22,6 +22,9 @@ class Myapp extends StatelessWidget {
             ),
           ),
         ),
+        body: Center(
+          child: Text('Text'),
+        ),
       ),
     );
   }
