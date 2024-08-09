@@ -1,2 +1,13 @@
 {
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": false,
+    "dart.flutterSdkPaths": [
+        "/home/moobin/flutter_linux_3.22.2-stable/flutter/bin"
+    ],
+    "dart.sdkPaths": [
+        "/home/moobin/dartsdk-linux-x64-release/dart-sdk/bin"
+    ]
 }
