@@ -16,7 +16,8 @@ class DrawerSlid extends StatelessWidget {
           Padding(padding: EdgeInsets.only(top: 5, left: 10)),
           Text(
             'Gmail',
-            style: TextStyle(color: Colors.red, fontSize: 22),
+            style: TextStyle(
+                color: Colors.red, fontSize: 22, fontWeight: FontWeight.bold),
           ),
           Padding(padding: EdgeInsets.only(top: 8)),
           Divider(),
