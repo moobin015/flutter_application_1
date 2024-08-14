@@ -26,7 +26,8 @@ class Myapp extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                       image: NetworkImage(
-                          'https://as2.ftcdn.net/v2/jpg/03/26/98/51/1000_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg'),
+                        'https://as2.ftcdn.net/v2/jpg/03/26/98/51/1000_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg',
+                      ),
                       fit: BoxFit.cover),
                   shape: BoxShape.circle,
                   border: GradientBoxBorder(
