@@ -21,7 +21,7 @@ class Myapp extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                height: 300,
+                height: 299,
                 width: 300,
                 decoration: BoxDecoration(
                   image: DecorationImage(
