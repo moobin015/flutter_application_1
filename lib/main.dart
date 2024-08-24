@@ -20,10 +20,12 @@ class Myapp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
+              // Image.asset('asset/image/img.png', height: 100, width: 100),
+              // SizedBox(height: 10,),
               Container(
                 height: 300,
                 width: 300,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                       image: NetworkImage(
                         'https://as2.ftcdn.net/v2/jpg/03/26/98/51/1000_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg',
@@ -43,13 +45,13 @@ class Myapp extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10),
-              Text('One')
+              const SizedBox(height: 10),
+              const Text('This is one tow  Three'),
             ],
           ),
         ),
         floatingActionButton: FloatingActionButton(
-          child: Icon(
+          child:  Icon(
             Icons.add,
             color: Colors.white,
           ),
