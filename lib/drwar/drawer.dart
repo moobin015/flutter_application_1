@@ -10,7 +10,7 @@ class DrawerSlid extends StatelessWidget {
       backgroundColor: Colors.white.withOpacity(0.85),
       shadowColor: Colors.black,
       width: 280,
-      child: Column(
+      child: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(padding: EdgeInsets.only(top: 5, left: 10)),
